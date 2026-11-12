@@ -4,9 +4,9 @@
   "package": "cancel_attack_cooldown.mixins",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "EntityMixin",
     "LivingEntityMixin",
-    "PlayerMixin"
+    "PlayerMixin",
+    "MobMixin"
   ],
   "injectors": {
     "defaultRequire": 1

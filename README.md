@@ -40,3 +40,8 @@ cd 1.21.11/fabric   # 或 1.21.11/neoforge
 ## License
 
 GPL-3.0（与原仓库一致），原作 © Xiaoyu_2009。
+
+## 1.21.11 说明
+
+- `cancel_attack_cooldown` 只取消**攻击间隔**：玩家/生物攻击后清除被攻击目标的受伤无敌帧，让下一次攻击立即命中。
+- 不再全局每 tick 清空 `invulnerableTime`，因此岩浆、火焰、虚空等持续环境伤害保持原版节奏。
